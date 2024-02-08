@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Hokm Game Table</title>
+  </head>
+
+  <body>
+   
+    <div id="table">
+      <div class="pitch-card" id="pitch-card">
+        <img
+          src="images/VintagePlayingCards/Clubs_10.png"
+          id="pitch-card-img-south"
+          class="pitch-card south"
+        />
+
+        <img
+          src="images/VintagePlayingCards/Clubs_A.png"
+          id="pitch-card-img-west"
+          class="pitch-card west"
+        />
+
+        <img
+          src="images/VintagePlayingCards/Clubs_K.png"
+          id="pitch-card-img-north"
+          class="pitch-card north"
+        />
+
+        <img
+          src="images/VintagePlayingCards/Clubs_2.png"
+          id="pitch-card-img-east"
+          class="pitch-card east"
+        />
+      </div>
+      <h2 id="comTeam-totalPoints">COM Total Points: 0</h1>
+      <h2 id="ourTeam-totalPoints">Our Total Points: 0</h1>
+      
+      <h3 id="com-team">COM_Team: 0</h2>
+      <h3 id="our-team">Our_Team: 0</h2>
+      <div class="player-hand south" id="player-hand south">
+        <button class="start-btn" id="start-btn">Start</button>
+        <h3 id="southPlayerName" class="playernameLabel">Hassan</h3>
+        <img
+          src="images/VintagePlayingCards/Clubs_5.png"
+          alt="Clubs_5"
+          id="Clubs_5"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Clubs_2.png"
+          alt="Clubs_2"
+          id="Clubs_2"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Clubs_7.png"
+          alt="Clubs_7"
+          id="Clubs_7"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Spades_8.png"
+          alt="Spades_8"
+          id="Spades_8"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Spades_5.png"
+          alt="Spades_5"
+          id="Spades_5"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Spades_2.png"
+          alt="Spades_2"
+          id="Spades_2"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Diamonds_J.png"
+          alt="Diamonds_J"
+          id="Diamonds_J"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Diamonds_8.png"
+          alt="Diamonds_8"
+          id="Diamonds_8"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Diamonds_5.png"
+          alt="Diamonds_5"
+          id="Diamonds_5"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Clubs_Q.png"
+          alt="Clubs_Q"
+          id="Clubs_Q"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Hearts_J.png"
+          alt="Hearts_J"
+          id="Hearts_J"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Hearts_8.png"
+          alt="Hearts_8"
+          id="Hearts_8"
+          class="card player"
+        />
+        <img
+          src="images/VintagePlayingCards/Hearts_5.png"
+          alt="Hearts_5"
+          id="Hearts_5"
+          class="card player"
+        />
+      </div>
+
+      <div class="player-hand north" id="player-hand north">
+        <h3 id="northPlayerName" class="playernameLabel">Teamate</h3>
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+      </div>
+
+      <div class="player-hand east" id="player-hand east">
+        <h3 id="eastPlayerName" class="playernameLabel">Oponent 1</h3>
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+      </div>
+
+      <div class="player-hand west" id="player-hand west">
+        <h3 id="westPlayerName" class="playernameLabel">Oponent 2</h3>
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+        <img
+          src="images/VintagePlayingCards/Back.png"
+          alt="back"
+          class="card otherPlayers"
+        />
+      </div>
+    </div>
+
+    <!-- <script src="myFunctions.js"></script>
+    <script src="debuggingHelper.js"></script> -->
+    
+    <script src="constants.js"></script>
+    <script src="index.js"></script>
+    
+  </body>
+</html>

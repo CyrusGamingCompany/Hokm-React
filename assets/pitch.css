@@ -1,0 +1,39 @@
+.pitch-card {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pitch-card.south {
+  position: relative;
+  bottom: -3em;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pitch-card.north {
+  position: relative;
+  top: -3em;
+  left: 37%;
+  transform: translateX(-50%);
+}
+
+.pitch-card.east {
+  position: relative;
+  top: 50%;
+  left: 35%;
+  transform: translateX(-50%);
+}
+
+.pitch-card.west {
+  position: relative;
+  top: 50%;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.pitch-card.hide {
+  display: "none";
+  visibility: "hidden";
+}

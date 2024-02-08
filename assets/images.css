@@ -1,0 +1,8 @@
+/* image.css */
+
+img {
+  width: 6%;
+  height: 6%;
+  object-fit: contain;
+  border-radius: 7%;
+}
